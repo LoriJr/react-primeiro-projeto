@@ -15,6 +15,7 @@ function App() {
   const name = "Lou Junior"
   return (
     <div className="App">
+      <h1>Texto em CSS</h1>
       <Frase />
       <SayMyName />
       <Pessoa 
