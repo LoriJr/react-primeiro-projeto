@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <p>{sum(10,15)}</p>
       <img src={url} alt='Imagem' width="150" height="150"/>
 
-
+      <HelloWorld />
     </div>
   );
 }
