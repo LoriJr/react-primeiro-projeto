@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Frase from './components/Frase';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
@@ -13,12 +15,14 @@ function App() {
   const name = "Lou Junior"
   return (
     <div className="App">
-      <h2>Alterando o JSX</h2>
-      <p>Olá {name}</p>
-      <p>{sum(10,15)}</p>
-      <img src={url} alt='Imagem' width="150" height="150"/>
+      <Frase />
+      <SayMyName />
+      <Pessoa 
+        nome="Lourival Junior"
+        idade="41"
+        foto="https://images.pexels.com/photos/32140540/pexels-photo-32140540.jpeg"
+        />
 
-      <HelloWorld />
     </div>
   );
 }
