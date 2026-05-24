@@ -3,6 +3,7 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Frase from './components/Frase';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
 
@@ -21,9 +22,8 @@ function App() {
       <Pessoa 
         nome="Lourival Junior"
         idade="41"
-        foto="https://images.pexels.com/photos/32140540/pexels-photo-32140540.jpeg"
-        />
-
+        foto="https://images.pexels.com/photos/32140540/pexels-photo-32140540.jpeg"/>
+      <List />
     </div>
   );
 }
