@@ -1,9 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import SayMyName from './components/SayMyName';
-import Frase from './components/Frase';
-import Pessoa from './components/Pessoa';
-import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
 
@@ -16,14 +14,8 @@ function App() {
   const name = "Lou Junior"
   return (
     <div className="App">
-      <h1>Texto em CSS</h1>
-      <Frase />
-      <SayMyName />
-      <Pessoa 
-        nome="Lourival Junior"
-        idade="41"
-        foto="https://images.pexels.com/photos/32140540/pexels-photo-32140540.jpeg"/>
-      <List />
+      <h1>Testando Eventos</h1>
+      <Form />
     </div>
   );
 }
